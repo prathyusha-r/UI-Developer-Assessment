@@ -1,0 +1,35 @@
+# UI-Developer-Assessment
+Code of the Sample Image
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+
+    <ul>
+      <li><img src="./img/logo.jpeg" alt="logo"></li>
+      <li class="students"><a  href="#"><i class="fa fa-user fa-10x ce" ></i><br><p>students</p></a></li>
+      <li><a href="#" class="active"><i class="fa fa-calendar fa-10x cal" ></i><br><p class="lesson">Lesson Plan</p></a></li>
+      <li><a href="#"><i class="fa fa-gear fa-10x cal" ></i><br><p class="lesson">Lesson Plan</p></a></li>
+    </ul>
+
+    <div class="logo"></div>
+
+    <div style="margin-left:10%;margin-top:30px;padding:1px 16px;">
+      <i class="fa fa-play"><p class="videos">Videos</p></i>
+      <form action="">
+        <input type="url" name="url" id="link" placeholder="Insert URL here">
+      </form>
+
+      <h4>or</h4>
+  
+      <form action="">
+        <input type="video" name="video" id="video" placeholder="upload">
+      </form>
+  
+    </div>
+
+  </body>
+</html>
