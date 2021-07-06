@@ -12,3 +12,5 @@ Cascading Style Sheets (CSS) is a style sheet language used for describing the p
 Project is about?
   
   Simple web page which contains navigation bar and an text URL and Upload which is styled using CSS .
+Output:
+   The Output is much similar to the assign one.
